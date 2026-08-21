@@ -1,28 +1,22 @@
 /* =========================================
    VARIABLES & COLOR PALETTE
    ========================================= */
+/* =========================================
+   VARIABLES & COLOR PALETTE (Đã chỉnh đậm nét)
+   ========================================= */
 :root {
     --bg-ivory: #FDFBF7;
-    --bg-paper: #F8F5EE;
-    --sage-light: #E4ECE3;
-    --sage-main: #A3B899;
-    --green-dark: #2C4235;
-    --green-deep: #1B2B22;
-    --text-muted: #66756B;
+    --bg-paper: #F3EFE6;         /* Làm nền phụ đậm hơn một chút để phân biệt rõ khối */
+    --sage-light: #D5E2D3;        /* Làm đậm khung nền chứa ảnh */
+    --sage-main: #4A7A53;         /* Chuyển từ xanh nhạt (#A3B899) sang xanh lá đậm nổi bật */
+    --green-dark: #1E3326;        /* Tăng độ đậm cho văn bản chính */
+    --green-deep: #0F1A13;        /* Màu tiêu đề đậm, sắc nét hơn */
+    --text-muted: #3D4F43;        /* Chuyển từ màu nhạt (#66756B) sang xám lục đậm dễ đọc */
     --white: #FFFFFF;
     
     --font-heading: 'Cormorant Garamond', serif;
     --font-script: 'Alex Brush', cursive;
     --font-body: 'Plus Jakarta Sans', sans-serif;
-}
-
-/* =========================================
-   RESET & BASE STYLES
-   ========================================= */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 html {
